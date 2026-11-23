@@ -1,0 +1,9 @@
+introspection:
+  url: https://homestore.yuzharyt.com/shop-api
+
+spectaql:
+  targetDir: ./docs/shop
+
+info:
+  title: Shop API Docs
+  description: Vendure Shop API

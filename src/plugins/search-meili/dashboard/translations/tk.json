@@ -1,0 +1,38 @@
+{
+  "search-monitoring": {
+    "title": "Gözleg Monitoring",
+    "status": {
+      "online": "Meilisearch Işleýär",
+      "offline": "Meilisearch Ýapyk"
+    },
+    "metrics": {
+      "indexed": "Indekslenen Önümler",
+      "searches": "Jemi Gözlegler",
+      "failedSync": "Şowsuz Sinhron",
+      "lastSync": "Soňky Sinhron",
+      "dbSize": "DB Ölçegi",
+      "queuePending": "Nobat Garaşýar"
+    },
+    "actions": {
+      "reindexAll": "Ählisin Gaýtadan Indeksle",
+      "forceSync": "Güýçli Sinhron",
+      "syncInline": "Häzir Sinhron (prosesde)",
+      "clearIndex": "Indeksi Arassala",
+      "refresh": "Täzele"
+    },
+    "topTerms": "Iň Köp Gözlenen Sözler",
+    "emptyTerms": "Netijesiz Gözlegler",
+    "recentTasks": "Soňky Işler"
+  },
+  "search-settings": {
+    "title": "Gözleg Sazlamalary",
+    "save": "Ýatda Sakla",
+    "typoTolerance": "Ýalňyşlyk Çydamlylygy",
+    "searchableAttributes": "Gözlenýän Atributlar",
+    "filterableAttributes": "Filtrlenýän Atributlar",
+    "sortableAttributes": "Tertiplenýän Atributlar",
+    "rankingRules": "Tertipleme Düzgünleri",
+    "stopWords": "Stopwords",
+    "synonyms": "Sinonimler"
+  }
+}

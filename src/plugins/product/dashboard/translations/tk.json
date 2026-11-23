@@ -1,0 +1,23 @@
+{
+  "common": {
+    "save": "Ýatda sakla",
+    "cancel": "Goý",
+    "delete": "Aýyr",
+    "loading": "Ýüklenýär…",
+    "noData": "Maglumat ýok"
+  },
+  "boughtTogether": {
+    "title": "Bilelikde alynýar",
+    "addProduct": "Haryt goş",
+    "empty": "Degişli harytlar düzülmedi",
+    "remove": "Aýyr"
+  },
+  "label": {
+    "field": "Bellikler",
+    "placeholder": "Bellik saýla"
+  },
+  "category": {
+    "field": "Kategoriýalar",
+    "placeholder": "Kategoriýa saýla"
+  }
+}

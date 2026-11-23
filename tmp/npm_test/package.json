@@ -1,0 +1,8 @@
+﻿{
+  "private": true,
+  "name": "vendure-upgrade-temp",
+  "version": "1.0.0",
+  "dependencies": {
+    "@vendure/core": "3.6.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "categories": "Categories",
+    "categoryTypes": "Category Types"
+  },
+  "list": {
+    "title": "Categories",
+    "empty": "No categories yet",
+    "createButton": "New category"
+  },
+  "detail": {
+    "title": "Category",
+    "name": "Name",
+    "slug": "Slug",
+    "parent": "Parent",
+    "icon": "Icon",
+    "image": "Image",
+    "sort": "Sort order",
+    "enabled": "Enabled",
+    "save": "Save",
+    "delete": "Delete"
+  }
+}

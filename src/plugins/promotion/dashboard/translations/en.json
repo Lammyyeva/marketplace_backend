@@ -1,0 +1,25 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "perVariant": {
+    "title": "Per-variant discount",
+    "variant": "Variant",
+    "discountType": "Discount type",
+    "discountValue": "Discount value",
+    "addVariant": "Add variant",
+    "remove": "Remove",
+    "empty": "No variants configured"
+  },
+  "facet": {
+    "title": "Facet discount",
+    "facetValue": "Facet value",
+    "discountValue": "Discount value"
+  },
+  "category": {
+    "title": "Category discount",
+    "category": "Category",
+    "discountValue": "Discount value"
+  }
+}

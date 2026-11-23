@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "importProducts": "Импорт товаров",
+    "uploadImages": "Загрузка изображений",
+    "importHistory": "История импортов"
+  },
+  "import": {
+    "title": "Импорт товаров",
+    "fileLabel": "Файл Excel",
+    "dropHint": "Перетащите файл сюда или нажмите для выбора",
+    "uploadButton": "Загрузить",
+    "startButton": "Начать импорт",
+    "cancelButton": "Отмена",
+    "validating": "Проверка…",
+    "running": "Выполняется…",
+    "completed": "Завершено",
+    "failed": "Ошибка"
+  },
+  "history": {
+    "title": "История импортов",
+    "empty": "Импортов пока нет",
+    "viewLogs": "Показать логи",
+    "columns": {
+      "createdAt": "Создан",
+      "filename": "Файл",
+      "status": "Статус",
+      "rows": "Строки",
+      "errors": "Ошибки"
+    }
+  }
+}

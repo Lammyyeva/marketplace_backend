@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "categories": "Kategoriýalar",
+    "categoryTypes": "Kategoriýa görnüşleri"
+  },
+  "list": {
+    "title": "Kategoriýalar",
+    "empty": "Henizem kategoriýa ýok",
+    "createButton": "Täze kategoriýa"
+  },
+  "detail": {
+    "title": "Kategoriýa",
+    "name": "Ady",
+    "slug": "Salgy",
+    "parent": "Ene",
+    "icon": "Nyşan",
+    "image": "Surat",
+    "sort": "Tertip belgisi",
+    "enabled": "Işjeň",
+    "save": "Ýatda sakla",
+    "delete": "Aýyr"
+  }
+}

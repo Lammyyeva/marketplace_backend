@@ -1,0 +1,22 @@
+# git worktrees managed by Claude Code (contain copies of the entire src tree)
+.claude/
+
+# compiled output
+dist/
+build/
+
+# auto-generated files (GraphQL codegen, TypeORM migrations)
+src/plugins/generated/
+src/migrations/
+src/gql/
+
+# dashboard UI source (third-party Vendure components)
+src/plugins/**/dashboard/
+
+# scratch / utility scripts
+script.js
+src/.gemini/
+
+# docs & public static assets
+docs/
+public/

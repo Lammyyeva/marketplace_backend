@@ -1,0 +1,25 @@
+{
+  "common": {
+    "save": "Сохранить",
+    "cancel": "Отмена"
+  },
+  "perVariant": {
+    "title": "Скидка по варианту",
+    "variant": "Вариант",
+    "discountType": "Тип скидки",
+    "discountValue": "Размер скидки",
+    "addVariant": "Добавить вариант",
+    "remove": "Удалить",
+    "empty": "Варианты не настроены"
+  },
+  "facet": {
+    "title": "Скидка по фасету",
+    "facetValue": "Значение фасета",
+    "discountValue": "Размер скидки"
+  },
+  "category": {
+    "title": "Скидка по категории",
+    "category": "Категория",
+    "discountValue": "Размер скидки"
+  }
+}

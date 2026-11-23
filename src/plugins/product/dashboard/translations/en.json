@@ -1,0 +1,23 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "loading": "Loading…",
+    "noData": "No data"
+  },
+  "boughtTogether": {
+    "title": "Bought together",
+    "addProduct": "Add product",
+    "empty": "No related products configured",
+    "remove": "Remove"
+  },
+  "label": {
+    "field": "Labels",
+    "placeholder": "Select labels"
+  },
+  "category": {
+    "field": "Categories",
+    "placeholder": "Select categories"
+  }
+}

@@ -1,0 +1,54 @@
+name: Deploy Backend
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-backend
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            set -ex
+
+            # Load NVM properly in non-interactive shell
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use
+            nvm use 24 || nvm install 24
+
+            # Ensure npm global binaries (pm2) are in PATH
+            export PATH=$PATH:$(dirname $(which node)):$HOME/.npm-global/bin
+
+            echo "📁 Entering project directory..."
+            cd /home/web/homestore-backend || exit 1
+
+            echo "📥 Fetching latest code..."
+            git reset --hard
+            git clean -fd
+            git pull origin main
+
+            echo "📦 Installing dependencies..."
+            npm install
+
+            echo "🏗️ Building..."
+            NODE_OPTIONS="--max-old-space-size=1536" npm run build
+
+            echo "🚀 Reloading PM2..."
+            pm2 reload ecosystem.config.js --env production \
+              || pm2 start ecosystem.config.js --env production
+
+            echo "💾 Saving PM2 state..."
+            pm2 save
+
+            echo "✅ Deployment Successful!"

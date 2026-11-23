@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "banners": "Bannerler",
+    "bannerTypes": "Banner görnüşleri"
+  },
+  "list": {
+    "title": "Bannerler",
+    "empty": "Henizem banner ýok",
+    "createButton": "Täze banner"
+  },
+  "detail": {
+    "title": "Banner",
+    "name": "Ady",
+    "image": "Surat",
+    "url": "Salgy",
+    "enabled": "Işjeň",
+    "save": "Ýatda sakla",
+    "delete": "Aýyr"
+  }
+}

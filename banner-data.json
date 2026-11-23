@@ -1,0 +1,325 @@
+{
+  "tables": [
+    {
+      "table_name": "migrations"
+    },
+    {
+      "table_name": "day"
+    },
+    {
+      "table_name": "banner_type"
+    },
+    {
+      "table_name": "banner_type_translation"
+    },
+    {
+      "table_name": "category_type_translation"
+    },
+    {
+      "table_name": "global_settings"
+    },
+    {
+      "table_name": "settings_store_entry"
+    },
+    {
+      "table_name": "job_record"
+    },
+    {
+      "table_name": "job_record_buffer"
+    },
+    {
+      "table_name": "scheduled_task_record"
+    },
+    {
+      "table_name": "search_index_item"
+    },
+    {
+      "table_name": "product"
+    },
+    {
+      "table_name": "order"
+    },
+    {
+      "table_name": "asset"
+    },
+    {
+      "table_name": "collection_asset"
+    },
+    {
+      "table_name": "facet"
+    },
+    {
+      "table_name": "facet_translation"
+    },
+    {
+      "table_name": "product_option"
+    },
+    {
+      "table_name": "product_option_translation"
+    },
+    {
+      "table_name": "product_option_group"
+    },
+    {
+      "table_name": "product_option_group_translation"
+    },
+    {
+      "table_name": "product_asset"
+    },
+    {
+      "table_name": "order_line"
+    },
+    {
+      "table_name": "order_line_reference"
+    },
+    {
+      "table_name": "fulfillment"
+    },
+    {
+      "table_name": "order_modification"
+    },
+    {
+      "table_name": "refund"
+    },
+    {
+      "table_name": "payment"
+    },
+    {
+      "table_name": "surcharge"
+    },
+    {
+      "table_name": "collection_translation"
+    },
+    {
+      "table_name": "facet_value_translation"
+    },
+    {
+      "table_name": "collection"
+    },
+    {
+      "table_name": "product_translation"
+    },
+    {
+      "table_name": "facet_value"
+    },
+    {
+      "table_name": "promotion"
+    },
+    {
+      "table_name": "promotion_translation"
+    },
+    {
+      "table_name": "shipping_method"
+    },
+    {
+      "table_name": "shipping_method_translation"
+    },
+    {
+      "table_name": "shipping_line"
+    },
+    {
+      "table_name": "product_variant"
+    },
+    {
+      "table_name": "stock_movement"
+    },
+    {
+      "table_name": "stock_location"
+    },
+    {
+      "table_name": "channel"
+    },
+    {
+      "table_name": "tax_category"
+    },
+    {
+      "table_name": "stock_level"
+    },
+    {
+      "table_name": "product_variant_asset"
+    },
+    {
+      "table_name": "product_variant_price"
+    },
+    {
+      "table_name": "product_variant_translation"
+    },
+    {
+      "table_name": "region"
+    },
+    {
+      "table_name": "region_translation"
+    },
+    {
+      "table_name": "tax_rate"
+    },
+    {
+      "table_name": "zone"
+    },
+    {
+      "table_name": "customer_group"
+    },
+    {
+      "table_name": "authentication_method"
+    },
+    {
+      "table_name": "session"
+    },
+    {
+      "table_name": "address"
+    },
+    {
+      "table_name": "administrator"
+    },
+    {
+      "table_name": "payment_method"
+    },
+    {
+      "table_name": "payment_method_translation"
+    },
+    {
+      "table_name": "seller"
+    },
+    {
+      "table_name": "history_entry"
+    },
+    {
+      "table_name": "collection_product_variants_product_variant"
+    },
+    {
+      "table_name": "collection_channels_channel"
+    },
+    {
+      "table_name": "facet_channels_channel"
+    },
+    {
+      "table_name": "facet_value_channels_channel"
+    },
+    {
+      "table_name": "product_facet_values_facet_value"
+    },
+    {
+      "table_name": "product_channels_channel"
+    },
+    {
+      "table_name": "asset_tags_tag"
+    },
+    {
+      "table_name": "tag"
+    },
+    {
+      "table_name": "asset_channels_channel"
+    },
+    {
+      "table_name": "promotion_channels_channel"
+    },
+    {
+      "table_name": "shipping_method_channels_channel"
+    },
+    {
+      "table_name": "order_promotions_promotion"
+    },
+    {
+      "table_name": "order_fulfillments_fulfillment"
+    },
+    {
+      "table_name": "order_channels_channel"
+    },
+    {
+      "table_name": "stock_location_channels_channel"
+    },
+    {
+      "table_name": "product_variant_options_product_option"
+    },
+    {
+      "table_name": "product_variant_facet_values_facet_value"
+    },
+    {
+      "table_name": "product_variant_channels_channel"
+    },
+    {
+      "table_name": "zone_members_region"
+    },
+    {
+      "table_name": "role"
+    },
+    {
+      "table_name": "role_channels_channel"
+    },
+    {
+      "table_name": "user_roles_role"
+    },
+    {
+      "table_name": "customer_groups_customer_group"
+    },
+    {
+      "table_name": "customer_channels_channel"
+    },
+    {
+      "table_name": "payment_method_channels_channel"
+    },
+    {
+      "table_name": "collection_closure"
+    },
+    {
+      "table_name": "user"
+    },
+    {
+      "table_name": "banner"
+    },
+    {
+      "table_name": "category"
+    },
+    {
+      "table_name": "category_type"
+    },
+    {
+      "table_name": "category_translation"
+    },
+    {
+      "table_name": "facet_value_custom_fields_categories_category"
+    },
+    {
+      "table_name": "product_custom_fields_categories_category"
+    },
+    {
+      "table_name": "category_brands_facet_value"
+    },
+    {
+      "table_name": "customer"
+    },
+    {
+      "table_name": "like"
+    },
+    {
+      "table_name": "label_products_product"
+    },
+    {
+      "table_name": "banner_translation"
+    },
+    {
+      "table_name": "label"
+    },
+    {
+      "table_name": "label_translation"
+    },
+    {
+      "table_name": "product_custom_fields_labels_label"
+    },
+    {
+      "table_name": "banner_products_product"
+    },
+    {
+      "table_name": "day_translation"
+    },
+    {
+      "table_name": "delivery_method_translation"
+    },
+    {
+      "table_name": "day_delivery_methods_delivery_method"
+    },
+    {
+      "table_name": "delivery_method"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+# Docker Compose file for running Vendure server + worker as separate containers.
+# Extend the root docker-compose.yml (infrastructure) with this file:
+#
+#   docker compose -f docker-compose.yml -f src/infra/docker/vendure.yml up -d
+#
+# Both containers share the same image but run different commands.
+# The worker sets VENDURE_WORKER_CONTEXT=true so plugins skip server-only logic.
+
+services:
+  vendure-server:
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+    command: ["node", "dist/index.js"]
+    env_file: ../../.env
+    environment:
+      NODE_ENV: production
+      APP_ENV: production
+      DB_HOST: postgres_db
+      REDIS_HOST: redis
+      MEILI_HOST: http://meilisearch:7700
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres_db
+      - redis
+      - meilisearch
+    restart: unless-stopped
+    volumes:
+      - vendure_assets:/usr/src/app/static/assets
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+
+  vendure-worker:
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+    command: ["node", "dist/index-worker.js"]
+    env_file: ../../.env
+    environment:
+      NODE_ENV: production
+      APP_ENV: production
+      VENDURE_WORKER_CONTEXT: "true"
+      DB_HOST: postgres_db
+      REDIS_HOST: redis
+      MEILI_HOST: http://meilisearch:7700
+    depends_on:
+      - postgres_db
+      - redis
+      - meilisearch
+    restart: unless-stopped
+    volumes:
+      - vendure_assets:/usr/src/app/static/assets
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+
+volumes:
+  vendure_assets:

@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "importProducts": "Haryt import",
+    "uploadImages": "Surat ýükle",
+    "importHistory": "Import taryhy"
+  },
+  "import": {
+    "title": "Haryt import",
+    "fileLabel": "Excel faýl",
+    "dropHint": "Faýly bu ýere süýräň ýa-da basyň",
+    "uploadButton": "Ýükle",
+    "startButton": "Import başla",
+    "cancelButton": "Goý",
+    "validating": "Barlanýar…",
+    "running": "Işleýär…",
+    "completed": "Tamamlandy",
+    "failed": "Şowsuz"
+  },
+  "history": {
+    "title": "Import taryhy",
+    "empty": "Henizem import ýok",
+    "viewLogs": "Žurnaly gör",
+    "columns": {
+      "createdAt": "Döredildi",
+      "filename": "Faýl",
+      "status": "Ýagdaý",
+      "rows": "Setir",
+      "errors": "Säwlikler"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<mjml>
+  <mj-head>
+    <mj-title>Password Reset</mj-title>
+    <mj-preview>Your password reset code</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, sans-serif" />
+      <mj-text padding="0" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#F7F8F9">
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <!-- Header -->
+        <mj-text font-size="22px" font-weight="400" padding="10px">
+          Forgot Password?
+        </mj-text>
+
+        <!-- Divider -->
+        <mj-divider border-color="#BBBBBB" border-width="1px" padding="10px" />
+        <!-- OTP Code Box -->
+        <mj-wrapper
+          background-color="#f8f9fa"
+          border-radius="8px"
+          padding="20px 10px"
+        >
+          <mj-section background-color="transparent">
+            <mj-column>
+              <mj-text
+                align="center"
+                font-size="14px"
+                color="#666666"
+                padding-bottom="10px"
+              >
+                Your Password Reset Code
+              </mj-text>
+              <mj-text
+                align="center"
+                font-size="36px"
+                font-weight="bold"
+                letter-spacing="6px"
+                color="#4A90E2"
+                padding="15px 10px"
+                font-family="'Courier New', Courier, monospace"
+              >
+                {{otpNumber}}
+              </mj-text>
+            </mj-column>
+          </mj-section>
+        </mj-wrapper>
+        <!-- Security Notice -->
+        <mj-divider
+          border-color="#e0e0e0"
+          border-width="1px"
+          padding="20px 10px 10px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+  </mj-body>
+</mjml>

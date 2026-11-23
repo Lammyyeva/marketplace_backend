@@ -1,0 +1,38 @@
+{
+  "search-monitoring": {
+    "title": "Search Monitoring",
+    "status": {
+      "online": "Meilisearch Online",
+      "offline": "Meilisearch Offline"
+    },
+    "metrics": {
+      "indexed": "Indexed Products",
+      "searches": "Total Searches",
+      "failedSync": "Failed Syncs",
+      "lastSync": "Last Sync",
+      "dbSize": "DB Size",
+      "queuePending": "Queue Pending"
+    },
+    "actions": {
+      "reindexAll": "Reindex All",
+      "forceSync": "Force Sync",
+      "syncInline": "Sync Now (in-process)",
+      "clearIndex": "Clear Index",
+      "refresh": "Refresh"
+    },
+    "topTerms": "Top Searched Keywords",
+    "emptyTerms": "Empty Result Keywords",
+    "recentTasks": "Recent Tasks"
+  },
+  "search-settings": {
+    "title": "Search Settings",
+    "save": "Save Settings",
+    "typoTolerance": "Typo Tolerance",
+    "searchableAttributes": "Searchable Attributes",
+    "filterableAttributes": "Filterable Attributes",
+    "sortableAttributes": "Sortable Attributes",
+    "rankingRules": "Ranking Rules",
+    "stopWords": "Stop Words",
+    "synonyms": "Synonyms Manager"
+  }
+}

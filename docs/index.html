@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="tk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docs & API Portal</title>
+    <style>
+      :root {
+        --bg: #f4f7f9;
+        --card-bg: #ffffff;
+        --text-main: #1a202c;
+        --text-muted: #718096;
+        --primary: #3182ce;
+        --border: #e2e8f0;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          sans-serif;
+        background-color: var(--bg);
+        color: var(--text-main);
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        line-height: 1.5;
+      }
+
+      .wrapper {
+        max-width: 800px;
+        width: 100%;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+
+      header p {
+        color: var(--text-muted);
+      }
+
+      /* Grid layout */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+
+      /* Card dizaýny */
+      .section {
+        background: var(--card-bg);
+        padding: 24px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+
+      h2 {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        margin-bottom: 16px;
+        border-bottom: 2px solid var(--bg);
+        padding-bottom: 8px;
+      }
+
+      .link-group {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .link-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        padding: 10px 14px;
+        border-radius: 8px;
+        background: var(--bg);
+        transition: all 0.2s ease;
+      }
+
+      .link-item:hover {
+        background: #ebf8ff;
+        transform: translateX(4px);
+      }
+
+      .link-label {
+        font-weight: 500;
+        color: var(--text-main);
+      }
+
+      .link-path {
+        font-family: monospace;
+        font-size: 0.85rem;
+        color: var(--primary);
+        background: #fff;
+        padding: 2px 6px;
+        border-radius: 4px;
+        border: 1px solid var(--border);
+      }
+
+      footer {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Project Portal</h1>
+        <p>Hemme API we dokumentasiýa linkleri bir ýerde</p>
+      </header>
+
+      <div class="grid">
+        <div class="section">
+          <h2>Endpoints & APIs</h2>
+          <div class="link-group">
+            <a href="/shop-api" class="link-item">
+              <span class="link-label">Shop API</span>
+              <span class="link-path">/shop-api</span>
+            </a>
+            <a href="/admin-api" class="link-item">
+              <span class="link-label">Admin API</span>
+              <span class="link-path">/admin-api</span>
+            </a>
+            <a href="/assets" class="link-item">
+              <span class="link-label">Asset Server</span>
+              <span class="link-path">/assets</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Interfaces</h2>
+          <div class="link-group">
+            <a href="/dashboard" class="link-item">
+              <span class="link-label">Dashboard UI</span>
+              <span class="link-path">/dashboard</span>
+            </a>
+            <a href="/graphiql/admin" class="link-item">
+              <span class="link-label">GraphiQL Admin</span>
+              <span class="link-path">/graphiql/admin</span>
+            </a>
+            <a href="/graphiql/shop" class="link-item">
+              <span class="link-label">GraphiQL Shop</span>
+              <span class="link-path">/graphiql/shop</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="section" style="grid-column: 1 / -1">
+          <h2>Documentation</h2>
+          <div class="link-group" style="flex-direction: row; gap: 20px">
+            <a href="/docs/admin" class="link-item" style="flex: 1">
+              <span class="link-label">Admin Docs</span>
+              <span class="link-path">/docs/admin</span>
+            </a>
+            <a href="/docs/shop" class="link-item" style="flex: 1">
+              <span class="link-label">Shop Docs</span>
+              <span class="link-path">/docs/shop</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        &copy; 2026 Developer Portal 100haryt. All rights reserved.
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "search-monitoring": {
+    "title": "Мониторинг поиска",
+    "status": {
+      "online": "Meilisearch онлайн",
+      "offline": "Meilisearch офлайн"
+    },
+    "metrics": {
+      "indexed": "Проиндексировано товаров",
+      "searches": "Всего запросов",
+      "failedSync": "Ошибок синхронизации",
+      "lastSync": "Последняя синхронизация",
+      "dbSize": "Размер БД",
+      "queuePending": "В очереди"
+    },
+    "actions": {
+      "reindexAll": "Переиндексировать всё",
+      "forceSync": "Принудительная синхронизация",
+      "clearIndex": "Очистить индекс",
+      "refresh": "Обновить",
+      "syncInline": "Синхронизировать сейчас (в процессе)"
+    },
+    "topTerms": "Самые популярные запросы",
+    "emptyTerms": "Запросы без результатов",
+    "recentTasks": "Последние задачи"
+  },
+  "search-settings": {
+    "title": "Настройки поиска",
+    "save": "Сохранить настройки",
+    "typoTolerance": "Толерантность к опечаткам",
+    "searchableAttributes": "Поисковые атрибуты",
+    "filterableAttributes": "Фильтруемые атрибуты",
+    "sortableAttributes": "Сортируемые атрибуты",
+    "rankingRules": "Правила ранжирования",
+    "stopWords": "Стоп-слова",
+    "synonyms": "Управление синонимами"
+  }
+}

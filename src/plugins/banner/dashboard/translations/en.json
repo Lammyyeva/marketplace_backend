@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "banners": "Banners",
+    "bannerTypes": "Banner Types"
+  },
+  "list": {
+    "title": "Banners",
+    "empty": "No banners yet",
+    "createButton": "New banner"
+  },
+  "detail": {
+    "title": "Banner",
+    "name": "Name",
+    "image": "Image",
+    "url": "URL",
+    "enabled": "Enabled",
+    "save": "Save",
+    "delete": "Delete"
+  }
+}

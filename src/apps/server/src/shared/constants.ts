@@ -1,0 +1,12 @@
+export const VERIFY = "VERIFY";
+export const REFRESH_TOKEN = "REFRESH_TOKEN";
+export const REFRESH_TOKEN_COUNT = "REFRESH_TOKEN_COUNT";
+export const FORGET_PASSWORD = "FORGET_PASSWORD";
+export const BANNER_PLUGIN_OPTIONS = Symbol("BANNER_PLUGIN_OPTIONS");
+export const loggerCtxBanner = "BannerPlugin";
+export const CATEGORY_PLUGIN_OPTIONS = Symbol("CATEGORY_PLUGIN_OPTIONS");
+export const loggerCtxCategory = "CategoryPlugin";
+export const PRODUCT_PLUGIN_OPTIONS = Symbol("PRODUCT_PLUGIN_OPTIONS");
+export const loggerCtxProduct = "ProductPlugin";
+export const DELIVERY_PLUGIN_OPTIONS = Symbol("DELIVERY_PLUGIN_OPTIONS");
+export const loggerCtx = "DeliveryPlugin";

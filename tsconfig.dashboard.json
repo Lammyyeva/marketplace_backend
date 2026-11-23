@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "paths": {
+      // Import alias for the GraphQL types
+      // This corresponds to the location that you have set in your `vite.config.mts`
+      // resolve.alias property
+      "@/gql": ["./src/gql/graphql.ts"],
+      // This line allows TypeScript to properly resolve internal
+      // Vendure Dashboard imports, which is necessary for
+      // type safety in your dashboard extensions.
+      // This path assumes a root-level tsconfig.json file.
+      // You may need to adjust it if your project structure is different.
+      "@/vdb/*": ["./node_modules/@vendure/dashboard/src/lib/*"]
+    },
+    "outDir": "./dist/admin-ui"
+  },
+  "include": [
+    "src/plugins/**/dashboard/**/*.ts",
+    "src/plugins/**/dashboard/**/*.tsx",
+    "src/plugins/**/api/**/*.ts",
+    "src/plugins/**/services/**/*.ts",
+    "src/gql/**/*.ts"
+  ]
+}

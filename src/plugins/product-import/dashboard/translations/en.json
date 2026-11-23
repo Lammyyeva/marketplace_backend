@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "importProducts": "Import Products",
+    "uploadImages": "Upload Images",
+    "importHistory": "Import History"
+  },
+  "import": {
+    "title": "Import Products",
+    "fileLabel": "Excel file",
+    "dropHint": "Drag a file here or click to browse",
+    "uploadButton": "Upload",
+    "startButton": "Start import",
+    "cancelButton": "Cancel",
+    "validating": "Validating…",
+    "running": "Running…",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "history": {
+    "title": "Import History",
+    "empty": "No imports yet",
+    "viewLogs": "View logs",
+    "columns": {
+      "createdAt": "Created",
+      "filename": "File",
+      "status": "Status",
+      "rows": "Rows",
+      "errors": "Errors"
+    }
+  }
+}

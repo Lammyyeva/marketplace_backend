@@ -1,0 +1,9 @@
+introspection:
+  url: https://homestore.yuzharyt.com/admin-api
+
+spectaql:
+  targetDir: ./docs/admin
+
+info:
+  title: Admin API Docs
+  description: Vendure Admin API

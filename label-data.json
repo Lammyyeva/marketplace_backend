@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "id": 1,
+      "code": "new",
+      "color": "#4caf50",
+      "enabled": true,
+      "sort": 1,
+      "featuredAssetId": null
+    },
+    {
+      "id": 2,
+      "code": "season",
+      "color": "#2196f3",
+      "enabled": true,
+      "sort": 2,
+      "featuredAssetId": null
+    }
+  ],
+  "translations": [
+    {
+      "baseId": 1,
+      "languageCode": "en",
+      "name": "New"
+    },
+    {
+      "baseId": 1,
+      "languageCode": "tk",
+      "name": "Täze"
+    },
+    {
+      "baseId": 1,
+      "languageCode": "ru",
+      "name": "Новый"
+    },
+    {
+      "baseId": 2,
+      "languageCode": "en",
+      "name": "Season"
+    },
+    {
+      "baseId": 2,
+      "languageCode": "tk",
+      "name": "Möwsüm"
+    },
+    {
+      "baseId": 2,
+      "languageCode": "ru",
+      "name": "Сезон"
+    }
+  ]
+}

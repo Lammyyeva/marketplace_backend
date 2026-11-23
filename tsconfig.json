@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@vendure/dashboard": ["src/types/dashboard.d.ts"],
+      "@vendure/dashboard/*": ["src/types/dashboard.d.ts"]
+    },
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "target": "es2019",
+    "strict": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "noResolve": false,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": [
+    "node_modules",
+    "migration.ts",
+    "src/plugins/**/ui/**",
+    "admin-ui",
+    "src/gql/**",
+    "vite.*.*ts",
+    "dist"
+  ],
+  "ts-node": {
+    "files": true
+  }
+}

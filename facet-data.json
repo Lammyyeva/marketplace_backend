@@ -1,0 +1,975 @@
+{
+  "facets": [
+    {
+      "createdAt": "2025-12-17T05:13:55.256Z",
+      "updatedAt": "2025-12-17T05:13:55.256Z",
+      "isPrivate": false,
+      "code": "category",
+      "id": 1
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.262Z",
+      "updatedAt": "2025-12-17T05:13:55.262Z",
+      "isPrivate": false,
+      "code": "brand",
+      "id": 2
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.835Z",
+      "updatedAt": "2025-12-17T05:13:55.835Z",
+      "isPrivate": false,
+      "code": "color",
+      "id": 3
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.995Z",
+      "updatedAt": "2025-12-17T05:13:55.995Z",
+      "isPrivate": false,
+      "code": "plant-type",
+      "id": 4
+    },
+    {
+      "createdAt": "2026-02-27T13:15:58.849Z",
+      "updatedAt": "2026-02-27T13:15:58.849Z",
+      "isPrivate": false,
+      "code": "brand-test",
+      "id": 7
+    }
+  ],
+  "facetTranslations": [
+    {
+      "createdAt": "2025-12-17T05:13:55.255Z",
+      "updatedAt": "2025-12-17T05:13:55.256Z",
+      "languageCode": "en",
+      "name": "category",
+      "id": 1,
+      "baseId": 1
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.262Z",
+      "updatedAt": "2025-12-17T05:13:55.262Z",
+      "languageCode": "en",
+      "name": "brand",
+      "id": 2,
+      "baseId": 2
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.834Z",
+      "updatedAt": "2025-12-17T05:13:55.835Z",
+      "languageCode": "en",
+      "name": "color",
+      "id": 3,
+      "baseId": 3
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.994Z",
+      "updatedAt": "2025-12-17T05:13:55.995Z",
+      "languageCode": "en",
+      "name": "plant type",
+      "id": 4,
+      "baseId": 4
+    },
+    {
+      "createdAt": "2026-02-27T13:15:58.849Z",
+      "updatedAt": "2026-02-27T13:15:58.849Z",
+      "languageCode": "tk",
+      "name": "brand-test",
+      "id": 7,
+      "baseId": 7
+    }
+  ],
+  "facetValues": [
+    {
+      "createdAt": "2025-12-17T05:13:55.258Z",
+      "updatedAt": "2025-12-17T05:13:55.258Z",
+      "code": "electronics",
+      "id": 1,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.260Z",
+      "updatedAt": "2025-12-17T05:13:55.260Z",
+      "code": "computers",
+      "id": 2,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.314Z",
+      "updatedAt": "2025-12-17T05:13:55.314Z",
+      "code": "logitech",
+      "id": 4,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.329Z",
+      "updatedAt": "2025-12-17T05:13:55.329Z",
+      "code": "samsung",
+      "id": 5,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.360Z",
+      "updatedAt": "2025-12-17T05:13:55.360Z",
+      "code": "corsair",
+      "id": 6,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.378Z",
+      "updatedAt": "2025-12-17T05:13:55.378Z",
+      "code": "admi",
+      "id": 7,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.400Z",
+      "updatedAt": "2025-12-17T05:13:55.400Z",
+      "code": "seagate",
+      "id": 8,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.466Z",
+      "updatedAt": "2025-12-17T05:13:55.466Z",
+      "code": "photo",
+      "id": 9,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.468Z",
+      "updatedAt": "2025-12-17T05:13:55.468Z",
+      "code": "polaroid",
+      "id": 10,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.481Z",
+      "updatedAt": "2025-12-17T05:13:55.481Z",
+      "code": "nikkon",
+      "id": 11,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.494Z",
+      "updatedAt": "2025-12-17T05:13:55.494Z",
+      "code": "agfa",
+      "id": 12,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.506Z",
+      "updatedAt": "2025-12-17T05:13:55.506Z",
+      "code": "manfrotto",
+      "id": 13,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.523Z",
+      "updatedAt": "2025-12-17T05:13:55.523Z",
+      "code": "kodak",
+      "id": 14,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.538Z",
+      "updatedAt": "2025-12-17T05:13:55.538Z",
+      "code": "sony",
+      "id": 15,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.615Z",
+      "updatedAt": "2025-12-17T05:13:55.615Z",
+      "code": "rolleiflex",
+      "id": 16,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.641Z",
+      "updatedAt": "2025-12-17T05:13:55.641Z",
+      "code": "sports-outdoor",
+      "id": 17,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.643Z",
+      "updatedAt": "2025-12-17T05:13:55.643Z",
+      "code": "equipment",
+      "id": 18,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.645Z",
+      "updatedAt": "2025-12-17T05:13:55.645Z",
+      "code": "pinarello",
+      "id": 19,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.662Z",
+      "updatedAt": "2025-12-17T05:13:55.662Z",
+      "code": "everlast",
+      "id": 20,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.777Z",
+      "updatedAt": "2025-12-17T05:13:55.777Z",
+      "code": "nike",
+      "id": 21,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.795Z",
+      "updatedAt": "2025-12-17T05:13:55.795Z",
+      "code": "wilson",
+      "id": 22,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.829Z",
+      "updatedAt": "2025-12-17T05:13:55.829Z",
+      "code": "footwear",
+      "id": 23,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.831Z",
+      "updatedAt": "2025-12-17T05:13:55.831Z",
+      "code": "adidas",
+      "id": 24,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.837Z",
+      "updatedAt": "2025-12-17T05:13:55.837Z",
+      "code": "blue",
+      "id": 25,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.840Z",
+      "updatedAt": "2025-12-17T05:13:55.840Z",
+      "code": "pink",
+      "id": 26,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.882Z",
+      "updatedAt": "2025-12-17T05:13:55.882Z",
+      "code": "black",
+      "id": 27,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.911Z",
+      "updatedAt": "2025-12-17T05:13:55.911Z",
+      "code": "white",
+      "id": 28,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.968Z",
+      "updatedAt": "2025-12-17T05:13:55.968Z",
+      "code": "converse",
+      "id": 29,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.992Z",
+      "updatedAt": "2025-12-17T05:13:55.992Z",
+      "code": "home-garden",
+      "id": 30,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.993Z",
+      "updatedAt": "2025-12-17T05:13:55.993Z",
+      "code": "plants",
+      "id": 31,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.996Z",
+      "updatedAt": "2025-12-17T05:13:55.996Z",
+      "code": "indoor",
+      "id": 32,
+      "facetId": 4,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.009Z",
+      "updatedAt": "2025-12-17T05:13:56.009Z",
+      "code": "outdoor",
+      "id": 33,
+      "facetId": 4,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.110Z",
+      "updatedAt": "2025-12-17T05:13:56.110Z",
+      "code": "furniture",
+      "id": 34,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.113Z",
+      "updatedAt": "2025-12-17T05:13:56.113Z",
+      "code": "gray",
+      "id": 35,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.164Z",
+      "updatedAt": "2025-12-17T05:13:56.164Z",
+      "code": "brown",
+      "id": 36,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.191Z",
+      "updatedAt": "2025-12-17T05:13:56.191Z",
+      "code": "wood",
+      "id": 37,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.269Z",
+      "updatedAt": "2025-12-17T05:13:56.269Z",
+      "code": "yellow",
+      "id": 38,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.276Z",
+      "updatedAt": "2025-12-17T05:13:56.276Z",
+      "code": "green",
+      "id": 39,
+      "facetId": 3,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2026-02-05T19:18:33.262Z",
+      "updatedAt": "2026-02-05T19:18:33.262Z",
+      "code": "kitchen-dishes",
+      "id": 42,
+      "facetId": 1,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2026-02-10T05:32:29.327Z",
+      "updatedAt": "2026-02-10T05:32:29.327Z",
+      "code": "apple",
+      "id": 43,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2026-02-10T05:37:11.406Z",
+      "updatedAt": "2026-02-10T05:37:11.406Z",
+      "code": "apple",
+      "id": 44,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2026-02-10T05:43:12.501Z",
+      "updatedAt": "2026-02-10T05:43:12.501Z",
+      "code": "apple",
+      "id": 45,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2026-02-10T05:52:59.354Z",
+      "updatedAt": "2026-02-10T05:52:59.354Z",
+      "code": "samsung",
+      "id": 46,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.264Z",
+      "updatedAt": "2026-02-19T10:39:16.705Z",
+      "code": "apple-tm",
+      "id": 3,
+      "facetId": 2,
+      "customFields__fix_relational_custom_fields__": null
+    }
+  ],
+  "facetValueTranslations": [
+    {
+      "createdAt": "2025-12-17T05:13:55.258Z",
+      "updatedAt": "2025-12-17T05:13:55.258Z",
+      "languageCode": "en",
+      "name": "Electronics",
+      "id": 1,
+      "baseId": 1
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.260Z",
+      "updatedAt": "2025-12-17T05:13:55.260Z",
+      "languageCode": "en",
+      "name": "Computers",
+      "id": 2,
+      "baseId": 2
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.264Z",
+      "updatedAt": "2025-12-17T05:13:55.264Z",
+      "languageCode": "en",
+      "name": "Apple",
+      "id": 3,
+      "baseId": 3
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.313Z",
+      "updatedAt": "2025-12-17T05:13:55.314Z",
+      "languageCode": "en",
+      "name": "Logitech",
+      "id": 4,
+      "baseId": 4
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.329Z",
+      "updatedAt": "2025-12-17T05:13:55.329Z",
+      "languageCode": "en",
+      "name": "Samsung",
+      "id": 5,
+      "baseId": 5
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.359Z",
+      "updatedAt": "2025-12-17T05:13:55.360Z",
+      "languageCode": "en",
+      "name": "Corsair",
+      "id": 6,
+      "baseId": 6
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.378Z",
+      "updatedAt": "2025-12-17T05:13:55.378Z",
+      "languageCode": "en",
+      "name": "ADMI",
+      "id": 7,
+      "baseId": 7
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.399Z",
+      "updatedAt": "2025-12-17T05:13:55.400Z",
+      "languageCode": "en",
+      "name": "Seagate",
+      "id": 8,
+      "baseId": 8
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.466Z",
+      "updatedAt": "2025-12-17T05:13:55.466Z",
+      "languageCode": "en",
+      "name": "Photo",
+      "id": 9,
+      "baseId": 9
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.468Z",
+      "updatedAt": "2025-12-17T05:13:55.468Z",
+      "languageCode": "en",
+      "name": "Polaroid",
+      "id": 10,
+      "baseId": 10
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.481Z",
+      "updatedAt": "2025-12-17T05:13:55.481Z",
+      "languageCode": "en",
+      "name": "Nikkon",
+      "id": 11,
+      "baseId": 11
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.494Z",
+      "updatedAt": "2025-12-17T05:13:55.494Z",
+      "languageCode": "en",
+      "name": "Agfa",
+      "id": 12,
+      "baseId": 12
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.505Z",
+      "updatedAt": "2025-12-17T05:13:55.506Z",
+      "languageCode": "en",
+      "name": "Manfrotto",
+      "id": 13,
+      "baseId": 13
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.522Z",
+      "updatedAt": "2025-12-17T05:13:55.523Z",
+      "languageCode": "en",
+      "name": "Kodak",
+      "id": 14,
+      "baseId": 14
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.538Z",
+      "updatedAt": "2025-12-17T05:13:55.538Z",
+      "languageCode": "en",
+      "name": "Sony",
+      "id": 15,
+      "baseId": 15
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.614Z",
+      "updatedAt": "2025-12-17T05:13:55.615Z",
+      "languageCode": "en",
+      "name": "Rolleiflex",
+      "id": 16,
+      "baseId": 16
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.641Z",
+      "updatedAt": "2025-12-17T05:13:55.641Z",
+      "languageCode": "en",
+      "name": "Sports & Outdoor",
+      "id": 17,
+      "baseId": 17
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.643Z",
+      "updatedAt": "2025-12-17T05:13:55.643Z",
+      "languageCode": "en",
+      "name": "Equipment",
+      "id": 18,
+      "baseId": 18
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.645Z",
+      "updatedAt": "2025-12-17T05:13:55.645Z",
+      "languageCode": "en",
+      "name": "Pinarello",
+      "id": 19,
+      "baseId": 19
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.662Z",
+      "updatedAt": "2025-12-17T05:13:55.662Z",
+      "languageCode": "en",
+      "name": "Everlast",
+      "id": 20,
+      "baseId": 20
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.777Z",
+      "updatedAt": "2025-12-17T05:13:55.777Z",
+      "languageCode": "en",
+      "name": "Nike",
+      "id": 21,
+      "baseId": 21
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.795Z",
+      "updatedAt": "2025-12-17T05:13:55.795Z",
+      "languageCode": "en",
+      "name": "Wilson",
+      "id": 22,
+      "baseId": 22
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.829Z",
+      "updatedAt": "2025-12-17T05:13:55.829Z",
+      "languageCode": "en",
+      "name": "Footwear",
+      "id": 23,
+      "baseId": 23
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.831Z",
+      "updatedAt": "2025-12-17T05:13:55.831Z",
+      "languageCode": "en",
+      "name": "Adidas",
+      "id": 24,
+      "baseId": 24
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.837Z",
+      "updatedAt": "2025-12-17T05:13:55.837Z",
+      "languageCode": "en",
+      "name": "blue",
+      "id": 25,
+      "baseId": 25
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.839Z",
+      "updatedAt": "2025-12-17T05:13:55.840Z",
+      "languageCode": "en",
+      "name": "pink",
+      "id": 26,
+      "baseId": 26
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.882Z",
+      "updatedAt": "2025-12-17T05:13:55.882Z",
+      "languageCode": "en",
+      "name": "black",
+      "id": 27,
+      "baseId": 27
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.910Z",
+      "updatedAt": "2025-12-17T05:13:55.911Z",
+      "languageCode": "en",
+      "name": "white",
+      "id": 28,
+      "baseId": 28
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.968Z",
+      "updatedAt": "2025-12-17T05:13:55.968Z",
+      "languageCode": "en",
+      "name": "Converse",
+      "id": 29,
+      "baseId": 29
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.992Z",
+      "updatedAt": "2025-12-17T05:13:55.992Z",
+      "languageCode": "en",
+      "name": "Home & Garden",
+      "id": 30,
+      "baseId": 30
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.993Z",
+      "updatedAt": "2025-12-17T05:13:55.993Z",
+      "languageCode": "en",
+      "name": "Plants",
+      "id": 31,
+      "baseId": 31
+    },
+    {
+      "createdAt": "2025-12-17T05:13:55.996Z",
+      "updatedAt": "2025-12-17T05:13:55.996Z",
+      "languageCode": "en",
+      "name": "Indoor",
+      "id": 32,
+      "baseId": 32
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.008Z",
+      "updatedAt": "2025-12-17T05:13:56.009Z",
+      "languageCode": "en",
+      "name": "Outdoor",
+      "id": 33,
+      "baseId": 33
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.110Z",
+      "updatedAt": "2025-12-17T05:13:56.110Z",
+      "languageCode": "en",
+      "name": "Furniture",
+      "id": 34,
+      "baseId": 34
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.113Z",
+      "updatedAt": "2025-12-17T05:13:56.113Z",
+      "languageCode": "en",
+      "name": "gray",
+      "id": 35,
+      "baseId": 35
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.164Z",
+      "updatedAt": "2025-12-17T05:13:56.164Z",
+      "languageCode": "en",
+      "name": "brown",
+      "id": 36,
+      "baseId": 36
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.191Z",
+      "updatedAt": "2025-12-17T05:13:56.191Z",
+      "languageCode": "en",
+      "name": "wood",
+      "id": 37,
+      "baseId": 37
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.269Z",
+      "updatedAt": "2025-12-17T05:13:56.269Z",
+      "languageCode": "en",
+      "name": "yellow",
+      "id": 38,
+      "baseId": 38
+    },
+    {
+      "createdAt": "2025-12-17T05:13:56.275Z",
+      "updatedAt": "2025-12-17T05:13:56.276Z",
+      "languageCode": "en",
+      "name": "green",
+      "id": 39,
+      "baseId": 39
+    },
+    {
+      "createdAt": "2026-02-05T19:18:33.262Z",
+      "updatedAt": "2026-02-05T19:18:33.262Z",
+      "languageCode": "en",
+      "name": "kitchen dishes",
+      "id": 42,
+      "baseId": 42
+    },
+    {
+      "createdAt": "2026-02-10T05:32:29.327Z",
+      "updatedAt": "2026-02-10T05:32:29.327Z",
+      "languageCode": "en",
+      "name": "appple",
+      "id": 43,
+      "baseId": 43
+    },
+    {
+      "createdAt": "2026-02-10T05:37:11.406Z",
+      "updatedAt": "2026-02-10T05:37:11.406Z",
+      "languageCode": "en",
+      "name": "appple",
+      "id": 44,
+      "baseId": 44
+    },
+    {
+      "createdAt": "2026-02-10T05:43:12.501Z",
+      "updatedAt": "2026-02-10T05:43:12.501Z",
+      "languageCode": "en",
+      "name": "appple",
+      "id": 45,
+      "baseId": 45
+    },
+    {
+      "createdAt": "2026-02-10T05:52:59.354Z",
+      "updatedAt": "2026-02-10T05:52:59.354Z",
+      "languageCode": "en",
+      "name": "samsung",
+      "id": 46,
+      "baseId": 46
+    },
+    {
+      "createdAt": "2026-02-19T10:39:16.656Z",
+      "updatedAt": "2026-02-19T10:39:16.656Z",
+      "languageCode": "tk",
+      "name": "apple-tm",
+      "id": 47,
+      "baseId": 3
+    }
+  ],
+  "facetValueChannels": [
+    {
+      "facetValueId": 1,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 2,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 3,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 4,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 5,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 6,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 7,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 8,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 9,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 10,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 11,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 12,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 13,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 14,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 15,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 16,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 17,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 18,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 19,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 20,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 21,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 22,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 23,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 24,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 25,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 26,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 27,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 28,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 29,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 30,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 31,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 32,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 33,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 34,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 35,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 36,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 37,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 38,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 39,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 42,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 43,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 44,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 45,
+      "channelId": 1
+    },
+    {
+      "facetValueId": 46,
+      "channelId": 1
+    }
+  ]
+}

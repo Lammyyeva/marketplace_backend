@@ -1,0 +1,25 @@
+{
+  "common": {
+    "save": "Ýatda sakla",
+    "cancel": "Goý"
+  },
+  "perVariant": {
+    "title": "Wariant boýunça arzanladyş",
+    "variant": "Wariant",
+    "discountType": "Arzanladyş görnüşi",
+    "discountValue": "Arzanladyş bahasy",
+    "addVariant": "Wariant goş",
+    "remove": "Aýyr",
+    "empty": "Wariantlar düzülmedi"
+  },
+  "facet": {
+    "title": "Faset boýunça arzanladyş",
+    "facetValue": "Faset gymmaty",
+    "discountValue": "Arzanladyş bahasy"
+  },
+  "category": {
+    "title": "Kategoriýa boýunça arzanladyş",
+    "category": "Kategoriýa",
+    "discountValue": "Arzanladyş bahasy"
+  }
+}

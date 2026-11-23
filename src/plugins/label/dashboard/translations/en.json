@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "labels": "Labels"
+  },
+  "list": {
+    "title": "Product Labels",
+    "empty": "No labels yet",
+    "createButton": "New label"
+  },
+  "detail": {
+    "title": "Label",
+    "name": "Name",
+    "code": "Code",
+    "color": "Color",
+    "image": "Image",
+    "enabled": "Enabled",
+    "save": "Save",
+    "delete": "Delete"
+  }
+}

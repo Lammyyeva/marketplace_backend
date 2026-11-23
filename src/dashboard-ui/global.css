@@ -1,0 +1,6 @@
+/* Fix for missing scrollbars on very tall Action & Condition dropdown lists in Vendure */
+.dropdown-menu {
+  max-height: 50vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}

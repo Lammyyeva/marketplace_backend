@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "labels": "Bellikler"
+  },
+  "list": {
+    "title": "Haryt bellikleri",
+    "empty": "Henizem bellik ýok",
+    "createButton": "Täze bellik"
+  },
+  "detail": {
+    "title": "Bellik",
+    "name": "Ady",
+    "code": "Kody",
+    "color": "Reňk",
+    "image": "Surat",
+    "enabled": "Işjeň",
+    "save": "Ýatda sakla",
+    "delete": "Aýyr"
+  }
+}
